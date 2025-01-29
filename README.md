@@ -23,3 +23,13 @@ Follow these steps to get the project up and running locally:
    ```bash
    git clone https://github.com/yourusername/pto-calculator.git
    cd pto-calculator
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+
+   This will install the required dependencies:
+   React: The React library for building the user interface.
+   ReactDOM: Used to render the React components into the DOM.
+   Next.js: The framework used for server-side rendering and building the app.
+   Tailwind CSS: A utility-first CSS framework for rapid UI development.
