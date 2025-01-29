@@ -1,7 +1,7 @@
-PTO Calculator
+***PTO Calculator***
 This is a Next.js project that includes a PTO (Paid Time Off) calculator built with React and styled using Tailwind CSS. The calculator allows users to input their salary, hours worked, and PTO details, and it calculates their hourly rate and available PTO.
 
-Features
+***Features***
 Input salary per pay period.
 Input hours worked per pay period.
 Track current and accumulated PTO.
@@ -15,7 +15,7 @@ npm (Node package manager)
 Installation
 Follow these steps to get the project up and running locally:
 
-Clone the repository:
+***Clone the repository:***
 
 bash
 Copy
