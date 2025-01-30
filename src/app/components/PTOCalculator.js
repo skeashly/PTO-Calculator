@@ -1,5 +1,4 @@
 "use client";
-//test
 
 import { useState } from "react";
 
@@ -47,7 +46,7 @@ export default function PTOCalculator() {
         <label className="block font-medium">Target Date (Optional)</label>
         <input className="w-full p-2 border rounded text-gray-700" type="date" value={targetDate} onChange={(e) => setTargetDate(e.target.value)} />
 
-        <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600" onClick={calculatePTO}>Calculate PTO</button>
+        <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600" onClick={calculatePTO}>Calculate Paid Time Off</button>
 
         {result && <pre className="mt-4 p-2 bg-gray-100 rounded text-gray-700">{result}</pre>}
       </div>
